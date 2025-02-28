@@ -38,3 +38,5 @@ export const AppBar = ({ appbarVariant, className }) => {
 AppBar.propTypes = {
   appbarVariant: PropTypes.oneOf(["default"]),
 };
+
+export default AppBar;
